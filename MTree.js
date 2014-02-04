@@ -91,6 +91,7 @@ function MTree(value, branchingFactor, comparator){
 
     /*reInsert(mTree) : Insert every value from the tree 'mTree' into this tree*/
     this.reInsert = function (mT) {
+		this.size -= mT.size;
         var nodes = mT.toArray();
         for (var i = 0; i < nodes.length; i++) {
             this.insert(nodes[i]);
