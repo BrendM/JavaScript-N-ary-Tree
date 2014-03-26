@@ -3,9 +3,9 @@ JavaScript-N-ary-Tree
 This is a tree structure similar to an N-ary tree implementation in javascript. 
 
 Duplicate nodes are allowed.
-----------------------------------------------------------
-Core Methods include:
 
+Core Methods include:
+----------------------------------------------------------
   Search for a node
   
   All nodes greater than specified node
@@ -17,9 +17,9 @@ Core Methods include:
   Min and max nodes
   
   Iterate over all nodes in the tree in order
-----------------------------------------------------------
-Example usage:
 
+Example usage:
+----------------------------------------------------------
 var mTree = new MTree(5, 7);
  
 var array = new Array();
@@ -30,4 +30,3 @@ for (var i = 1000; 0 < i; i--) {//1000 random elements
 mTree.insertArray(array);
 
 mTree.search(42);
-----------------------------------------------------------
