@@ -26,7 +26,7 @@ var array = new Array();
 
 for (var i = 1000; 0 < i; i--) {//1000 random elements
 
-    array.push(Math.floor((Math.random() * 1000)));
+  array.push(Math.floor((Math.random() * 1000)));
     
 }
 
