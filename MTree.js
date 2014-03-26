@@ -4,7 +4,7 @@ Works quite well for large amounts of data that needs to be searched through.
 
 Also sorts based on the comparator and can be returned as an array easily
 
-Similatr in function to a K-ary tree although i did not model this off of that so there may be differences*/
+Similar in function to a N-ary tree although i did not model this off of that so there may be differences*/
 function MTree(value, branchingFactor, comparator){
     this.branches = new Array();
     this.val = value;
